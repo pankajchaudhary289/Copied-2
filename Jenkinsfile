@@ -4,8 +4,7 @@ pipeline
   
   tools
   {
-    maven 'Maven_3.8.2'
-  }
+    mven 'Maven_'3.9.16  }
   
   triggers
   {
@@ -24,10 +23,9 @@ pipeline
     {
       steps()
       {
-        git branch: 'development', credentialsId: '957b543e-6f77-4cef-9aec-82e9b0230975', url: 'https://github.com/devopstrainingblr/maven-web-application-1.git'
+      
       }
-    }
-    
+    }    
     stage('Build Project')
     {
       steps()
