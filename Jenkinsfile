@@ -22,7 +22,7 @@ pipeline
     {
       steps()
       {
-      
+      git branch: 'development', credentialsId: '5bee71ad-74d2-4531-b872-2024a6ca3fd5', url: 'https://github.com/pankajchaudhary289/Copied-2.git'
       }
     }    
     stage('Build Project')
