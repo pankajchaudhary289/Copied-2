@@ -2,8 +2,8 @@ pipeline
 {
   agent any
   
-  tools
-  { maven 'Maven_'3.9.16 }
+  tools { 
+    maven 'Maven 3.9.16' }
   
   triggers
   {
