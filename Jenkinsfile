@@ -3,8 +3,7 @@ pipeline
   agent any
   
   tools
-  {
-    mven 'Maven_'3.9.16  }
+  { maven 'Maven_'3.9.16 }
   
   triggers
   {
